@@ -1,0 +1,8 @@
+.b-map{
+    width: 100%;
+    height: 36.8em;
+}
+.b-map iframe{
+    width: 100%;
+    height: 100%;
+}

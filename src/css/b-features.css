@@ -1,0 +1,41 @@
+.b-features{
+    padding: 4em 0;
+}
+.b-features__item{
+    text-align: center;
+}
+.b-features__itemText{
+    font-size:1.7em;
+    color: #000;
+    line-height: 1.235;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700; 
+}
+.b-features__itemIcon{
+    width: 13.5em;
+    height: 13.5em;
+    margin: 0 auto 1.5em;
+    border-radius: 50%;
+    background-color:#f3f5f6;
+    position: relative;
+}
+.b-features__itemIcon:before{
+    content:" ";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -16px 0 0 -16px;
+    background: url(../images/sprite.png) no-repeat -500px 0;
+}
+.b-features__itemIcon.icon6:before{
+    background-position: -532px 0;
+}
+.b-features__itemIcon.icon7:before{
+    background-position: -564px 0;
+}
+.b-features__itemIcon.icon8:before{
+    background-position: -596px 0;
+}

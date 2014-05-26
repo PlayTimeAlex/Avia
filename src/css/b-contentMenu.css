@@ -1,0 +1,54 @@
+.b-contentMenu{
+    background:#f2f6f8;
+    border-top:1px solid #d9dddf;
+    padding: 1.5em 0;
+}
+.b-contentMenu__list{
+    display: table;
+    width: 100%;
+}
+.b-contentMenu__listItem{
+    display: table-cell;
+    text-align: center;
+    border-left: 1px solid #cdd0d2;
+}
+.b-contentMenu__listItem:first-child{
+    border:0;
+}
+.b-contentMenu__listItemLink{
+    font-size:1.5em;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+}
+.b-contentMenu__listItemLink:before{
+    content:" ";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background:url(../images/sprite.png) no-repeat -150px 0;
+    vertical-align: middle;
+    margin: 0 1em 0 0;
+}
+.b-contentMenu__listItemLink_icon1:before{
+    background-position: -162px 0;
+}
+.b-contentMenu__listItemLink_icon2:before{
+    background-position: -174px 0;
+}
+.b-contentMenu__listItemLink_icon3:before{
+    background-position: -186px 0;
+}
+.b-contentMenu__listItemLink_icon4:before{
+    background-position: -198px 0;
+}
+.b-contentMenu__listItemLink_icon5:before{
+    background-position: -210px 0;
+}
+.b-contentMenu__listItemLink_spec{
+    text-decoration: underline;
+    color: #2ba400;
+}

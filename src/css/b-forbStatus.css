@@ -1,0 +1,29 @@
+.b-formStatus{
+    border:9px solid #f2f6f8;
+    padding: 3.3em 6em 5.3em;
+    margin: 2em 0 0;
+    position: relative;
+}
+.b-form__submit_formStatus{
+    position: absolute;
+    bottom:-23px;
+    left: 50%;
+    margin: 0 0 0 -5em;
+    width: 10em;
+    text-align: center;
+}
+.b-formStatus__result{
+    text-align: center;
+    font-size:1.9em;
+    color: #dd0000;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;      
+    padding: 4em 0 2em;
+}
+.b-formStatus__resultIc{
+    display: block;
+    width: 82px;
+    height: 82px;
+    margin: 0 auto 1em;
+    background:url(../images/sprite.png) no-repeat -418px 0;
+}

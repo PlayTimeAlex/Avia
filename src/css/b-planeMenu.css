@@ -1,0 +1,61 @@
+.b-planeMenu{
+    padding: 2.4em 0;
+}
+.b-planeMenu__list{
+    display: table;
+    width: 100%;
+}
+.b-planeMenu__listItem{
+    display: table-cell;
+    text-align: center;
+}
+.b-planeMenu__listItemLink{
+    font-size:1.3em;
+    color: #006eb8;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+}
+.b-planeMenu__listItemLink:before{
+    content:" ";
+    display: block;
+    width: 71px;
+    height: 40px;
+    background:url(../images/planes.png) no-repeat 0 0;
+    background-size:100% auto;
+    margin: 0 auto 0.6em;
+}
+.b-planeMenu__listItemLink_vintage:before{
+    background-position: center 8.333%;
+}
+.b-planeMenu__listItemLink_warbirds:before{
+    background-position: center 18.666%;
+}
+.b-planeMenu__listItemLink_ambhibian:before{
+    background-position: center 27%;
+}
+.b-planeMenu__listItemLink_experimental:before{
+    background-position: center 35.333%;
+}
+.b-planeMenu__listItemLink_helicopter:before{
+    background-position: center 45.666%;
+}
+.b-planeMenu__listItemLink_jets:before{
+    background-position: center 54.666%;
+}
+.b-planeMenu__listItemLink_singles:before{
+    background-position: center 62.666%;
+}
+.b-planeMenu__listItemLink_turboprop:before{
+    background-position: center 72.666%;
+}
+.b-planeMenu__listItemLink_twinjet:before{
+    background-position: center 80.666%;
+}
+.b-planeMenu__listItemLink_twub-turbines:before{
+    background-position: center 90.666%;
+}
+.b-planeMenu__listItemLink_light-sport:before{
+    background-position: center 100%;
+}

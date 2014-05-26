@@ -1,0 +1,37 @@
+.b-contacts{
+    padding: 1em 0 3.3em;
+}
+.b-contacts__logo{
+    float: left;
+    margin: 0 4.5em 0 0;
+}
+.b-contacts p{
+    font-size:1.6em;
+    line-height: 1.5;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    padding: 0.8em 0 0;
+}
+.b-contacts__left, .b-contacts__right{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;     
+}
+.b-contacts__tel{
+    padding-left: 11.5em;
+    position: relative;
+}
+.b-contacts__tel:before{
+    content:" ";
+    display: block;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top:50%;
+    left: 5em;
+    margin: -16px 0 0;
+    background:url(../images/sprite.png) no-repeat -356px 0;
+}

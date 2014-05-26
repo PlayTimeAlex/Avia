@@ -1,0 +1,28 @@
+.b-noplanem{
+    min-height: 13em;
+    background:url(../images/planeBg.jpg) no-repeat center bottom;
+    padding: 3em 0 0 39em;
+}
+.b-noplanem p{
+    font-size:2.4em;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+.b-noplanem__link{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom:3px dotted #2a8dbe;
+    color: #2a8dbe;
+}
+.b-noplanem_sm{
+    padding-left: 26em;
+    width: 71%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;   
+}

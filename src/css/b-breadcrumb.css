@@ -1,0 +1,41 @@
+.b-breadcrumb{
+    position: relative;
+    padding: 1.5em 0;
+}
+.b-breadcrumb__item{
+    font-size:1.3em;
+    color: #000;
+    display: inline-block;
+}
+.b-breadcrumb__item:before{
+    content:"→";
+    display: inline-block;
+    padding: 0 0.69em;
+}
+.b-breadcrumb__item:first-child:before{
+    content:"";
+}
+.b-breadcrumb__link{
+    color: #006eb8;
+}
+.b-breadcrumb__print{
+    position: absolute;
+    padding:0 2em 0 0;
+    display: block;
+    top: 50%;
+    margin: -1em 0 0 0;
+    right: 0;
+}
+.b-breadcrumb__print:before{
+    content:" ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 11px;
+    background:url(../images/sprite.png) no-repeat -268px 0;
+    margin: -3px 0.826em 0 0;
+}
+.b-breadcrumb__print a{
+    font-size:1.3em;
+    color: #006eb8;
+}
