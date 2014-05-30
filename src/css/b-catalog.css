@@ -64,3 +64,8 @@
     background:url(../images/sprite.png) no-repeat -247px 0;
     margin: -3px 0.826em 0 0;
 }
+.b-catalog__title_search .b-catalog__titleIcon{
+    background-position:-628px 0;
+    width: 22px;
+    height: 23px;
+}

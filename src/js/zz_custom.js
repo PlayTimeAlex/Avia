@@ -8,7 +8,7 @@
         });  
         $('input').styler();  
         setTimeout(function() {  
-          $('select').styler();  
+          $('.b-filter__multiple, .b-filter__select').styler();  
         }, 100);  
         function positionTop(elem){
             var footPos = $('.b-footer').offset();
