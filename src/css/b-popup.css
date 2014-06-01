@@ -1,0 +1,113 @@
+.b-popup{
+    padding: 0 3.8em;
+    width: 46em;
+}
+.b-popup__title{
+    font-size:2.6em;
+    color: #0e7eaa;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;    
+    padding: 0.8em 0 0.4em;
+}
+.b-popup__label{
+    font-size:1.5em;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    display: block;
+    padding: 0.7em 0;
+}
+.b-popup_fleft{
+    float:left;
+    width: 19em;
+    padding-right: 1em;
+}
+.b-popup_fright{
+    float:left;
+    width: 26em;
+}
+.b-popup_formEl{
+    padding: 0 0 1.4em;
+}
+.b-popup .b-form__submit{
+    width: 100%;
+}
+.av_conf{
+    font-size:1.3em;
+    color: rgba(0,0,0,.5);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    padding: 0 0 0 2.4em;
+    position: relative;
+}
+.av_conf:before{
+    content:" ";
+    display: block;
+    width: 10px;
+    height: 11px;
+    background:url(../images/sprite.png) no-repeat -686px 0;
+    position: absolute;
+    top:0.3em;
+    left:0;
+}
+.b-popup .b-filter__label{
+    display: inline-block;
+    padding: 0.8em 1em 0 0;
+}
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    z-index:500;
+}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{
+    -webkit-overflow-scrolling: touch;
+}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#colorbox{
+    outline:0;
+}
+#cboxContent{
+    background:#fff;
+}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxLoadingOverlay{}
+        #cboxLoadingGraphic{background:url(../images/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+        #cboxClose{
+            display: block;
+            width: 3.6em;
+            height: 3.6em;
+            position:absolute;
+            top:-1.5em;
+            right: -1.5em;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBDOTlBOURDRTk0QTExRTNBMzZGODIwQjFFOUUxMjcyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjBDOTlBOURERTk0QTExRTNBMzZGODIwQjFFOUUxMjcyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MEM5OUE5REFFOTRBMTFFM0EzNkY4MjBCMUU5RTEyNzIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEM5OUE5REJFOTRBMTFFM0EzNkY4MjBCMUU5RTEyNzIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5J/0EtAAAAkElEQVR42oSQiw2AIAxEG+MCzsIKuAo7dQVncAVHYAUdoZbYEj4FL7lAIA96B0QEYhSDYceOskIJqNAAbrlLq0uHnnqhAaiivhYM8DCA/NMM7IAy0x+YgeQFal3sB3qdcvdp0BJNyoEZcI/AGeAGGXHlCR17K+ZPmXbJoDmwSti0VrVktIpt5WEAqL3uXwEGAGFl/x0q5hptAAAAAElFTkSuQmCC) no-repeat center center #18a8e1;
+        }

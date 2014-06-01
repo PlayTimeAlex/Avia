@@ -34,6 +34,11 @@
                 $(this).css('display', 'none').removeClass('top');
             });
         });
+        
+        $('.open-popup').colorbox({
+            inline:true,
+            close: ""
+        });
     });
 
     $(window).load(function() {

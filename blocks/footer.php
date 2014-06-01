@@ -31,5 +31,74 @@
                 </div>
             </div>
         </footer>
+        <div style="display:none;">
+            <div class="b-popup" id="op_agent">
+                <h2 class="b-popup__title">Связаться с агентом</h2>
+                <form action="/">
+                    <div class="b-popup_formEl clearfix">
+                        <div class="b-popup_fleft">
+                            <label class="b-popup__label" for="pname">Ваше имя:</label>
+                        </div>
+                        <div class="b-popup_fright">
+                            <input id="pname" type="text" class="b-form__text b-form__text_icon" />
+                        </div>
+                    </div>
+                    <div class="b-popup_formEl clearfix">
+                        <div class="b-popup_fleft">
+                            <label class="b-popup__label" for="pemail">Ваш e-mail:</label>
+                        </div>
+                        <div class="b-popup_fright">
+                            <input id="pemail" type="email" class="b-form__text b-form__text_icon icon2" />
+                        </div>
+                    </div>
+                    <div class="b-popup_formEl clearfix">
+                        <div class="b-popup_fleft">
+                            <label class="b-popup__label" for="ptel">Ваш телефон:</label>
+                        </div>
+                        <div class="b-popup_fright">
+                            <input id="ptel" type="tel" class="b-form__text"/>
+                        </div>
+                    </div>
+                    <div class="b-popup_formEl clearfix">
+                        <div class="b-popup_fleft">
+                            <div class="b-popup__label">Когда:</div>
+                        </div>
+                        <div class="b-popup_fright">
+                        </div>
+                    </div>
+                    <div class="b-popup_formEl clearfix">
+                        <div class="b-popup_fleft">
+                            <div class="b-popup__label">Интересуюсь</div>
+                        </div>
+                        <div class="b-popup_fright">
+                            <label class="b-filter__label">
+                                <input type="checkbox" class="d_check" />
+                                Авиасудном
+                            </label>
+                            <label class="b-filter__label">
+                                <input type="checkbox" class="d_check" />
+                                Авиасудном
+                            </label>
+                        </div>
+                    </div>
+                    <div class="b-popup_formEl clearfix">
+                        <div class="b-popup_fleft">
+                            <label class="b-popup__label" for="pwishes">Пожелания</label>
+                        </div>
+                        <div class="b-popup_fright">
+                            <textarea id="pwishes" class="b-form__textarea" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <div class="b-popup_formEl clearfix">
+                        <div class="b-popup_fleft">
+                            <div class="av_conf">Конфиденциальность гарантируется</div>
+                        </div>
+                        <div class="b-popup_fright">
+                            <button class="b-form__submit">Отправить сообщение</button>
+                        </div>
+                    </div>
+                </form>    
+            </div>
+        </div>    
     </body>
 </html>

@@ -36,7 +36,7 @@
                             <p>Доставка авиатехники и запчастей из <strong>США</strong></p>
                         </div>
                         <div class="b-header__bottomRigth">
-                            <a href="#" class="b-header__agentBtn">Поговорить с агентом</a>
+                            <a href="#op_agent" class="b-header__agentBtn open-popup">Поговорить с агентом</a>
                         </div>    
                     </div>    
                 </div>
