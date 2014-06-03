@@ -31,7 +31,7 @@
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_singles">Singles</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_turboprop">Turboprop</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_twinjet">Twinjet</a></li>
-                                <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_twub-turbines">Twub Turbines</a></li>
+                                <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_twin-turbines">Twin Turbines</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_light-sport">Light Sport</a></li>
                             </ul>
                         </div>    

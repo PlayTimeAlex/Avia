@@ -63,7 +63,19 @@
                                     <div class="b-form__el row-fluid">
                                         <div class="span4"><input type="text" class="b-form__text b-form__text_icon" placeholder="Ваше имя:" /></div>
                                         <div class="span4"><input type="email" class="b-form__text b-form__text_icon icon2" placeholder="Ваш e-mail:" /></div>
-                                        <div class="span4"><input type="tel" class="b-form__text" placeholder="Ваш телефон:" /></div>
+                                        <div class="span4">                                
+                                            <div class="b-form__countryTel">
+                                                <select class="b-form__select">
+                                                    <option value="">Страна</option>
+                                                    <option value="">Украина</option>
+                                                    <option value="">Россия</option>
+                                                    <option value="">Туркменистан</option>
+                                                    <option value="">Молдова</option>
+                                                    <option value="">Казахстан</option>
+                                                </select>
+                                                <input type="tel" class="b-form__text input-num"/>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="b-form__el">
                                         <textarea class="b-form__textarea" placeholder="Сообщение:" rows="7"></textarea>

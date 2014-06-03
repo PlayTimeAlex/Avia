@@ -93,6 +93,9 @@
     -webkit-box-sizing: border-box;  
     width: 48%;
     margin-left: 2%;
+    -moz-transition: background 0.3s ease;
+    -webkit-transition: background 0.3s ease;   
+    transition: background 0.3s ease;  
 }
 .b-fullItem__button:first-child{
     margin-right: 2%;

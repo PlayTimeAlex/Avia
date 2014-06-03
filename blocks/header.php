@@ -21,7 +21,7 @@
                             <ul class="b-header__menuList">
                                 <li class="b-header__menuItem"><a href="#" class="b-header__menuLink">О Компании</a></li>
                                 <li class="b-header__menuItem"><a href="#" class="b-header__menuLink icon2">Все услуги</a></li>
-                                <li class="b-header__menuItem"><a href="#" class="b-header__menuLink icon3">Все услуги</a></li>
+                                <li class="b-header__menuItem"><a href="#" class="b-header__menuLink icon3">О процессе</a></li>
                                 <li class="b-header__menuItem"><a href="#" class="b-header__menuLink icon4">Мой заказ</a></li>
                                 <li class="b-header__menuItem"><a href="#" class="b-header__menuLink icon5">Контакты</a></li>
                             </ul>

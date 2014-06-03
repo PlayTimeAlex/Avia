@@ -24,6 +24,9 @@
     display: inline-block;
     line-height: 1;
 }
+.b-contentMenu__listItemLink:hover{
+    text-decoration: underline;
+}
 .b-contentMenu__listItemLink:before{
     content:" ";
     display: inline-block;
@@ -49,6 +52,5 @@
     background-position: -210px 0;
 }
 .b-contentMenu__listItemLink_spec{
-    text-decoration: underline;
     color: #2ba400;
 }

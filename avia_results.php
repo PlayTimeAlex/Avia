@@ -31,7 +31,7 @@
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_singles">Singles</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_turboprop">Turboprop</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_twinjet">Twinjet</a></li>
-                                <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_twub-turbines">Twub Turbines</a></li>
+                                <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_twib-turbines">Twin Turbines</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_light-sport">Light Sport</a></li>
                             </ul>
                         </div>    
@@ -71,7 +71,7 @@
                                         <div class="span5">
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
-                                                Twin Turbines
+                                                Commercial
                                             </label>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
@@ -83,7 +83,15 @@
                                             </label>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
-                                                Lightsport
+                                                Amphibian
+                                            </label>
+                                            <label class="b-filter__label">
+                                                <input type="checkbox" class="d_check" />
+                                                Experimental
+                                            </label>
+                                            <label class="b-filter__label">
+                                                <input type="checkbox" class="d_check" />
+                                                Helicopter
                                             </label>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
@@ -95,27 +103,19 @@
                                             </label>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
-                                                Single Eng.Turb
+                                                Turboprop
                                             </label>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
-                                                Twin Pistons
+                                                Twinjet
                                             </label>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
-                                                Commercial
+                                                Twin Turbines
                                             </label>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
-                                                Amhibian
-                                            </label>
-                                            <label class="b-filter__label">
-                                                <input type="checkbox" class="d_check" />
-                                                Самолеты
-                                            </label>
-                                            <label class="b-filter__label">
-                                                <input type="checkbox" class="d_check" />
-                                                Другие типы
+                                                Light Sport
                                             </label>
                                         </div>
                                         <div class="span7">
@@ -213,10 +213,10 @@
                                             <h3 class="b-filter__title">Двигатель:</h3>
                                         </div>
                                         <div class="span4">
-                                            <h3 class="b-filter__title">Двигатель:</h3>
+                                            <h3 class="b-filter__title">Тип полосы:</h3>
                                         </div>
                                         <div class="span4">
-                                            <h3 class="b-filter__title">Двигатель:</h3>
+                                            <h3 class="b-filter__title">Кол-во мест:</h3>
                                         </div>
                                     </div>
                                     <div class="row-fluid">

@@ -89,7 +89,10 @@
     margin: 0.5em 0 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;      
+    -moz-box-sizing: border-box;     
+    -moz-transition: background 0.3s ease, color  0.3s ease;
+    -webkit-transition: background 0.3s ease, color  0.3s ease;   
+    transition: background 0.3s ease, color  0.3s ease;     
 }
 .b-cItem__btn:hover{
     background:#70b700;

@@ -21,7 +21,7 @@
                                             <input type="text" class="b-form__text b-form__text_icon icon4" placeholder="Контракт №:" />
                                         </div>
                                         <div class="span6">
-                                            <input type="text" class="b-form__text b-form__text_icon icon5" placeholder="Пик код:" />
+                                            <input type="text" class="b-form__text b-form__text_icon icon5" placeholder="Пин код:" />
                                         </div>
                                     </div>
                                     <button class="b-form__submit b-form__submit_formStatus">Войти</button>

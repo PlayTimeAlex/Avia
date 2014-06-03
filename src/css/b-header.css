@@ -28,6 +28,9 @@
     padding: 0.46em 1em 0.46em 2.53em;
     text-decoration: none;
     box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    -moz-transition: background 0.3s ease;
+    -webkit-transition: background 0.3s ease;   
+    transition: background 0.3s ease;     
 }
 .b-header__agentBtn:before{
     content:" ";
@@ -39,6 +42,9 @@
     height: 16px;
     background:url(../images/sprite.png) no-repeat 0 0;
     margin: -8px 0 0;
+}
+.b-header__agentBtn:hover{
+    background:#1386b4;
 }
 .b-header__logo{
     width: 27.5em;
@@ -77,6 +83,12 @@
     display: block;
     padding: 1.63em 0;
     background-position: left top;
+    -moz-transition: background 0.3s ease;
+    -webkit-transition: background 0.3s ease;   
+    transition: background 0.3s ease;       
+}
+.b-header__menuLink:hover{
+    background:#f4f4f4;
 }
 .b-header__menuLink:before{
     content: " ";

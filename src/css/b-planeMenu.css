@@ -16,6 +16,12 @@
     font-weight: 400;
     text-decoration: none;
     display: block;
+    -moz-transition: background 0.3s ease;
+    -webkit-transition: background 0.3s ease;   
+    transition: background 0.3s ease;
+}
+.b-planeMenu__listItemLink:hover{
+    background:#f4f4f4;
 }
 .b-planeMenu__listItemLink:before{
     content:" ";
@@ -53,7 +59,7 @@
 .b-planeMenu__listItemLink_twinjet:before{
     background-position: center 80.666%;
 }
-.b-planeMenu__listItemLink_twub-turbines:before{
+.b-planeMenu__listItemLink_twin-turbines:before{
     background-position: center 90.666%;
 }
 .b-planeMenu__listItemLink_light-sport:before{
