@@ -50,7 +50,7 @@
                                             <table class="b-cItem__contentDescTbl">
                                                 <tr>
                                                     <td>Изготовитель:</td>
-                                                    <td>Cesna</td>
+                                                    <td><span class="longtext" title="Embraer (Empresa Brasileira de Aeronautica) S.A.">Embraer (Empresa Brasileira de Aeronautica) S.A.</span></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Модель:</td>
