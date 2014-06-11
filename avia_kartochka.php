@@ -52,12 +52,13 @@
                                 <div class="b-fullItem__slider">
                                     <div class="b-fullItem__price">$24,000 - $34,000</div>
                                     <ul class="slides clearfix">
-                                        <li><img src="images/content/plane3.jpg" alt="" /></li>
-                                        <li><img src="images/content/plane3.jpg" alt="" /></li>
-                                        <li><img src="images/content/plane3.jpg" alt="" /></li>
-                                        <li><img src="images/content/plane3.jpg" alt="" /></li>
-                                        <li><img src="images/content/plane3.jpg" alt="" /></li>
-                                        <li><img src="images/content/plane3.jpg" alt="" /></li>
+                                        <!-- тут ссылка на большую картинку-->
+                                        <li><a class="b-fullItem__slider-link colorbox gal-group" href="images/content/plane3.jpg"><img src="images/content/plane3.jpg" alt="" /></a></li>
+                                        <li><a class="b-fullItem__slider-link colorbox gal-group" href="images/content/plane3.jpg"><img src="images/content/plane3.jpg" alt="" /></a></li>
+                                        <li><a class="b-fullItem__slider-link colorbox gal-group" href="images/content/plane3.jpg"><img src="images/content/plane3.jpg" alt="" /></a></li>
+                                        <li><a class="b-fullItem__slider-link colorbox gal-group" href="images/content/plane3.jpg"><img src="images/content/plane3.jpg" alt="" /></a></li>
+                                        <li><a class="b-fullItem__slider-link colorbox gal-group" href="images/content/plane3.jpg"><img src="images/content/plane3.jpg" alt="" /></a></li>
+                                        <li><a class="b-fullItem__slider-link colorbox gal-group" href="images/content/plane3.jpg"><img src="images/content/plane3.jpg" alt="" /></a></li>
                                     </ul>
                                 </div>
                                 <div class="b-fullItem__carusel">

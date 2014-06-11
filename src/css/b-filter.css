@@ -141,6 +141,12 @@
     background:#fff;
     color: #18a8e1;
 }
+.b-filter__resultsBtn_inactive,.b-filter__resultsBtn_inactive:hover{
+    cursor:default;
+    color:#ccc;
+    border-color:#ccc;
+    background:transparent;
+}
 .b-filter__type{
     position: absolute;
     top:-3.5em;

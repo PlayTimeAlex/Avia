@@ -195,6 +195,7 @@ input:focus,a:focus,button:focus,textarea:focus{
     width: 100%;
     white-space: nowrap;
     cursor: default;
+    padding-top:0.15em;
 }
 @media (max-width: 980px){
     .container {
@@ -520,7 +521,7 @@ input:focus,a:focus,button:focus,textarea:focus{
     width: 100%;
 }
 .b-cItem__contentPrev{
-    width: 52.5%;
+    width: 46.5%;
     float: left;
     position: relative;
 }
@@ -537,7 +538,7 @@ input:focus,a:focus,button:focus,textarea:focus{
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     padding: 0.2em 0 0.14em;
-    vertical-align: middle;
+    vertical-align: top;
 }
 .b-cItem__contentDescTbl td:first-child{
     font-weight: 700;
@@ -548,12 +549,14 @@ input:focus,a:focus,button:focus,textarea:focus{
 .b-cItem__contentBottom{
     width: 100%;
     clear:both;
+    display: table;
+    padding-top:1.2em;
 }
 .b-cItem__btn{
-    display: inline-block;
+    display: table-cell;
     font-size:1.5em;
     color: #000000;
-    padding: 0.7em 0.5em;
+    padding: 0.7em 0.2em;
     text-align: center;
     text-decoration: none;
     background:#ffffff;
@@ -564,9 +567,17 @@ input:focus,a:focus,button:focus,textarea:focus{
     -moz-transition: background 0.3s ease, color  0.3s ease;
     -webkit-transition: background 0.3s ease, color  0.3s ease;   
     transition: background 0.3s ease, color  0.3s ease;     
+    text-align: center;
+    white-space: nowrap;
+}
+.b-cItem__btn:nth-child(2){
+    background-clip: padding-box;
+    border-left:7px solid transparent;
+    border-right:7px solid transparent;
 }
 .b-cItem__btn:hover{
     background:#70b700;
+    background-clip: padding-box;
     color: #fff;
 }
 .b-cItem__btn:before{
@@ -576,13 +587,20 @@ input:focus,a:focus,button:focus,textarea:focus{
     width: 12px;
     height: 12px;
     background:url(../images/sprite.png) no-repeat -210px 0;
-    margin: 0 0.73em 0 0;
+    margin: 0 0.33em 0 0;
 }
 .b-cItem__btn_full:before{
     background-position: -234px 0;
 }
 .b-cItem__btn_zak:before{
     background-position: -222px 0;
+}
+.widget__cItem .b-cItem__btn{
+    display:block;
+}
+.widget__cItem .b-cItem__btn{
+    display:inline-block;
+    border:0;
 }
 .b-cItem__price{
     font-size:1.5em;
@@ -952,6 +970,12 @@ input:focus,a:focus,button:focus,textarea:focus{
     background:#fff;
     color: #18a8e1;
 }
+.b-filter__resultsBtn_inactive,.b-filter__resultsBtn_inactive:hover{
+    cursor:default;
+    color:#ccc;
+    border-color:#ccc;
+    background:transparent;
+}
 .b-filter__type{
     position: absolute;
     top:-3.5em;
@@ -1214,6 +1238,10 @@ input:focus,a:focus,button:focus,textarea:focus{
     font-weight: 700;
     padding: 0 0.5em;
 }
+.b-fullItem__slider-link{
+    display: block;
+    cursor: pointer;
+}
 .b-header__bottom{
     background:url(../images/sub-headerBg.jpg) no-repeat right center #000;
     background-size: auto 100%;
@@ -1222,7 +1250,7 @@ input:focus,a:focus,button:focus,textarea:focus{
 .b-header__bottomLeft{
     float: left;
 }
-.b-header__bottomLeft > p{
+.b-header__bottomLeft > h1{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size:3.1em;
     line-height: 1.32em;
@@ -1269,6 +1297,7 @@ input:focus,a:focus,button:focus,textarea:focus{
 }
 .b-header__logoImg{
     display: block;
+    max-width: 100%;
 }
 .b-header__menuCont{
     overflow: hidden;
@@ -1536,6 +1565,10 @@ input:focus,a:focus,button:focus,textarea:focus{
 .b-popup__right .widget__cItem{
     padding-bottom: 0;
 }
+.b-popup__logo{
+    text-align:center;
+    margin-top:2em;
+}
 /*
     Colorbox Core Style:
     The following CSS is consistent between example themes and should not be altered.
@@ -1560,7 +1593,26 @@ input:focus,a:focus,button:focus,textarea:focus{
 .cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
 .cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
 #colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
-
+.photocolorbox{
+    box-shadow:0 0 20px rgba(0,0,0,1);
+}
+#cboxPrevious, #cboxNext{
+    width: 22px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 2em;
+    margin: -18px 0 0;
+    background: url(../images/sprite.png) no-repeat -278px 0;
+    z-index: 10;
+    border:0;
+}
+#cboxNext{
+    left:auto;
+    right:2em;
+    background-position: -300px 0;
+}
 /* 
     User Style:
     Change the following styles to modify the appearance of Colorbox.  They are
@@ -1575,12 +1627,12 @@ input:focus,a:focus,button:focus,textarea:focus{
         .cboxIframe{background:#fff;}
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
-        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#fff;font-size:1.2em;display:none!important;}
         #cboxLoadingOverlay{}
         #cboxLoadingGraphic{background:url(../images/loading.gif) no-repeat center center;}
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
-        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
         
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
         #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}

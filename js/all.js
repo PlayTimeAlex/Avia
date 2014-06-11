@@ -9158,7 +9158,14 @@ $.widget( "ui.slider", $.ui.mouse, {
             inline:true,
             close: ""
         });
-        
+        $('.colorbox').colorbox({
+            className: 'photocolorbox',
+            rel: 'gal-group',
+            close: "",
+            previous:" ",
+            next:" ",
+            current: "Изображение {current} из {total}"
+        });
        $.datepicker.regional['ru'] = {
                 closeText: 'Закрыть',
                 prevText: '<Пред',
@@ -9222,6 +9229,15 @@ $.widget( "ui.slider", $.ui.mouse, {
                 }   
             }
         });  
+        
+        //Скрол к результатам поиска
+        /*if(Если уже результаты поиска){
+            setTimeout(function() {
+                $('html, body').animate({
+                    scrollTop: $("#b-catalog").offset().top
+                }, 200);
+            }, 100);
+        }*/
     });
 
     $(window).load(function() {

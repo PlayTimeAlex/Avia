@@ -50,7 +50,7 @@
     width: 100%;
 }
 .b-cItem__contentPrev{
-    width: 52.5%;
+    width: 46.5%;
     float: left;
     position: relative;
 }
@@ -67,7 +67,7 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     padding: 0.2em 0 0.14em;
-    vertical-align: middle;
+    vertical-align: top;
 }
 .b-cItem__contentDescTbl td:first-child{
     font-weight: 700;
@@ -77,12 +77,15 @@
 }
 .b-cItem__contentBottom{
     width: 100%;
+    clear:both;
+    display: table;
+    padding-top:1.2em;
 }
 .b-cItem__btn{
-    display: inline-block;
+    display: table-cell;
     font-size:1.5em;
     color: #000000;
-    padding: 0.7em 0.5em;
+    padding: 0.7em 0.2em;
     text-align: center;
     text-decoration: none;
     background:#ffffff;
@@ -93,9 +96,17 @@
     -moz-transition: background 0.3s ease, color  0.3s ease;
     -webkit-transition: background 0.3s ease, color  0.3s ease;   
     transition: background 0.3s ease, color  0.3s ease;     
+    text-align: center;
+    white-space: nowrap;
+}
+.b-cItem__btn:nth-child(2){
+    background-clip: padding-box;
+    border-left:7px solid transparent;
+    border-right:7px solid transparent;
 }
 .b-cItem__btn:hover{
     background:#70b700;
+    background-clip: padding-box;
     color: #fff;
 }
 .b-cItem__btn:before{
@@ -105,13 +116,20 @@
     width: 12px;
     height: 12px;
     background:url(../images/sprite.png) no-repeat -210px 0;
-    margin: 0 0.73em 0 0;
+    margin: 0 0.33em 0 0;
 }
 .b-cItem__btn_full:before{
     background-position: -234px 0;
 }
 .b-cItem__btn_zak:before{
     background-position: -222px 0;
+}
+.widget__cItem .b-cItem__btn{
+    display:block;
+}
+.widget__cItem .b-cItem__btn{
+    display:inline-block;
+    border:0;
 }
 .b-cItem__price{
     font-size:1.5em;

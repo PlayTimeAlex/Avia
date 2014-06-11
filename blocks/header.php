@@ -15,7 +15,7 @@
                 <div class="container">
                     <div class="container__inner c">
                         <div class="b-header__logo">
-                            <a href="#" class="b-header__logoLink"><img src="images/logo.png" alt="AviaTradeUS" class="b-header__logoImg" /></a>
+                            <a href="#" class="b-header__logoLink"><img src="images/logo.svg" alt="AviaTradeUS" class="b-header__logoImg"/></a>
                         </div>
                         <nav class="b-header__menuCont">
                             <ul class="b-header__menuList">
@@ -33,7 +33,7 @@
                 <div class="container">
                     <div class="container__inner container__inner_right">
                         <div class="b-header__bottomLeft">
-                            <p>Доставка авиатехники и запчастей из <strong>США</strong></p>
+                            <h1>Доставка авиатехники и запчастей из <strong>США</strong></h1>
                         </div>
                         <div class="b-header__bottomRigth">
                             <a href="#op_agent" class="b-header__agentBtn open-popup">Поговорить с агентом</a>

@@ -48,16 +48,6 @@
                         <div class="container__inner">
                             <h2 class="b-page__title">Расширенный поиск авиасуден на продажу:</h2>
                             <div class="b-filter clearfix">
-                                <div class="b-filter__type">
-                                    <label class="b-filter__label">
-                                        <input type="checkbox" class="d_check" />
-                                        Самолеты
-                                    </label>
-                                    <label class="b-filter__label">
-                                        <input type="checkbox" class="d_check" />
-                                        Вертолеты
-                                    </label>
-                                </div>
                                 <div class="b-filter__left">
                                     <div class="row-fluid">
                                         <div class="span5">
@@ -274,13 +264,13 @@
                                     </div>
                                     <div class="b-filter__results clearfix">
                                         Найдено <strong>34 авиасудна</strong>
-                                        <button class="b-filter__resultsBtn">Показать</button>
+                                        <button class="b-filter__resultsBtn b-filter__resultsBtn_inactive">Показать</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="b-catalog clearfix">
+                    <div class="b-catalog clearfix" id="b-catalog">
                         <div class="container__inner">
                             <h2 class="b-catalog__title b-catalog__title_search"><span class="b-catalog__titleIcon b-catalog__titleIcon_icon9"></span><strong>Результаты</strong> Поиска:</h2>
                             <div class="b-catalog__row clearfix">

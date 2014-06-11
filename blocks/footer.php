@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="container__inner">
                     <div class="b-footer__logo b-footer__widget">
-                        <img src="images/logo.png" alt="AviaTradeUs" class="b-footer__logoImg" />
+                        <img src="images/logo__footer.svg" alt="AviaTradeUs" class="b-footer__logoImg" />
                     </div>
                     <div class="b-footer__menu b-footer__widget">
                         <ul class="b-footer__menuList">
@@ -160,6 +160,7 @@
                                     <a href="#" class="b-cItem__btn b-cItem__btn_zak">Заказать запчасти</a>
                                     <a href="#" class="b-cItem__btn b-cItem__btn_full">Полная анкета</a>
                                 </div>
+                                <div class="b-popup__logo"><img src="images/logo.svg" alt="AviaTradeUS" /></div>
                             </div>
                         </div>
                     </div>

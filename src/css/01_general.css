@@ -189,6 +189,14 @@ input:focus,a:focus,button:focus,textarea:focus{
 .dec-title strong{
     color: #18a8e1;
 }
+.longtext{
+    display: inline-block;
+    overflow:hidden;
+    width: 100%;
+    white-space: nowrap;
+    cursor: default;
+    padding-top:0.15em;
+}
 @media (max-width: 980px){
     .container {
         width: 980px;

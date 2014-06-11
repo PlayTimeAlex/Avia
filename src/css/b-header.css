@@ -6,7 +6,7 @@
 .b-header__bottomLeft{
     float: left;
 }
-.b-header__bottomLeft > p{
+.b-header__bottomLeft > h1{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size:3.1em;
     line-height: 1.32em;
@@ -53,6 +53,7 @@
 }
 .b-header__logoImg{
     display: block;
+    max-width: 100%;
 }
 .b-header__menuCont{
     overflow: hidden;
