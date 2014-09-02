@@ -6,3 +6,6 @@
     line-height: 1.2;
     padding: 0 0 0.8em;
 }
+.b-page__about{
+    background:url(../images/planebg2.png) no-repeat right top;
+}

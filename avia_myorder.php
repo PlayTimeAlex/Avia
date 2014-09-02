@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <aside class="b-rsidebar">
+                <aside class="b-rsidebar hide-phone">
                     <div class="widget">
                         <h2 class="widget__title widget__title_arrow">Новые Добавления</h2>
                         <div class="widget__cItem">

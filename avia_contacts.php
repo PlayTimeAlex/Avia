@@ -1,7 +1,7 @@
 <?php require_once 'blocks/header.php'; ?>   
         <section class="main-content main-content_bg">
             <div class="container clearfix">
-                <div class="main-content__content main-content__content_s">
+                <div class="main-content__content main-content__content_s main-content__content_np">
                     <div class="b-breadcrumb">
                         <ul class="b-breadcrumb__list">
                             <li class="b-breadcrumb__item"><a href="#" class="b-breadcrumb__link">Главная</a></li>
@@ -13,7 +13,7 @@
                             <h2 class="b-page__title">Обратная связь</h2>
                             <div class="b-contacts clearfix">
                                 <div class="b-contacts__left">
-                                    <img class="b-contacts__logo" src="images/contacts-logo.png" alt="" />
+                                    <img class="b-contacts__logo hide-phone" src="images/contacts-logo.png" alt="" />
                                     <p>2039 International Drive<br />Chicago, IL, 60656<br />United States of America</p>
                                 </div>
                                 <div class="b-contacts__right b-contacts__tel">
@@ -57,7 +57,7 @@
                             <div class="b-map" id="map-canvas">
 
                             </div>
-                            <div class="b-form">
+                            <div class="b-form hide-phone">
                                 <form action="/">
                                     <h2 class="b-form__title">Напишите нам</h2>
                                     <div class="b-form__el row-fluid">
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <aside class="b-rsidebar">
+                <aside class="b-rsidebar hide-phone">
                     <div class="widget">
                         <h2 class="widget__title widget__title_arrow">Новые Добавления</h2>
                         <div class="widget__cItem">

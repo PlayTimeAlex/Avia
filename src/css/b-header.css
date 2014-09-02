@@ -112,3 +112,22 @@
 .b-header__menuLink.icon5:before{
     background-position: -73px 0;
 }
+.b-header__menuLink.icon6:before{
+    background-position: -150px 0;
+    width: 12px;
+}
+.b-header__menuLink.icon7:before{
+    background-position: -162px 0;
+    width: 12px;
+}
+.b-header__menuLink.icon8:before{
+    background-position: -174px 0;
+    width: 12px;
+}
+.b-header__menuLink.icon9:before{
+    background-position: -186px 0;
+    width: 12px;
+}
+.b-header__opentel{
+    display: none;
+}

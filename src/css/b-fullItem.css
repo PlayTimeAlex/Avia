@@ -36,14 +36,14 @@
     right:1em;
     background-position: -300px 0;
 }
-.flex-direction-nav{
+.b-fullItem__slider .flex-direction-nav{
     width: 0;
     height: 0;
 }
-.flex-direction-nav li{
+.b-fullItem__slider .flex-direction-nav li{
     list-style: none;
 }
-.flex-disabled{
+.b-fullItem__slider .flex-disabled{
     display: none!important;
 }
 .b-fullItem__description{

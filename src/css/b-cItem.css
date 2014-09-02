@@ -41,6 +41,7 @@
     border-bottom-color: #fbfcfc;
 }
 .b-cItem__contentPrevImg{
+    height:136px;
     display: block;
     border:4px solid #fff;
     box-shadow: 1px 1px 0 1px #cacecf;

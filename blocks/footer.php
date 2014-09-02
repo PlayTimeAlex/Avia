@@ -26,7 +26,7 @@
                         </ul> 
                     </div>
                     <div class="b-footer__widget">
-                        <a href="#" class="b-footer__specBtn">Специалист на связи</a>
+                        <div class="b-footer__specBtnwr"><a href="#" class="b-footer__specBtn">Специалист на связи</a></div>
                         <div class="b-created">
                             Сделано с любовью в студий<br />
                             <a target="_blank" href="//mymediapro.ru">MyMediaPro</a>

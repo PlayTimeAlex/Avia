@@ -14,33 +14,37 @@
                         </div>
                         <div class="b-alphabet">
                             <div class="container__inner">
-                                <a href="#" class="b-alphabet__link">a</a>
-                                <a href="#" class="b-alphabet__link">b</a>
-                                <a href="#" class="b-alphabet__link">c</a>
-                                <a href="#" class="b-alphabet__link">d</a>
-                                <a href="#" class="b-alphabet__link">e</a>
-                                <a href="#" class="b-alphabet__link">f</a>
-                                <a href="#" class="b-alphabet__link">g</a>
-                                <a href="#" class="b-alphabet__link">h</a>
-                                <a href="#" class="b-alphabet__link">i</a>
-                                <a href="#" class="b-alphabet__link">j</a>
-                                <a href="#" class="b-alphabet__link">k</a>
-                                <a href="#" class="b-alphabet__link">l</a>
-                                <a href="#" class="b-alphabet__link">m</a>
-                                <a href="#" class="b-alphabet__link">n</a>
-                                <a href="#" class="b-alphabet__link">o</a>
-                                <a href="#" class="b-alphabet__link">p</a>
-                                <a href="#" class="b-alphabet__link">q</a>
-                                <a href="#" class="b-alphabet__link">r</a>
-                                <a href="#" class="b-alphabet__link">s</a>
-                                <a href="#" class="b-alphabet__link">t</a>
-                                <a href="#" class="b-alphabet__link">u</a>
-                                <a href="#" class="b-alphabet__link">v</a>
-                                <a href="#" class="b-alphabet__link">w</a>
-                                <a href="#" class="b-alphabet__link">x</a>
-                                <a href="#" class="b-alphabet__link">y</a>
-                                <a href="#" class="b-alphabet__link">z</a>
-                                <a href="#" class="b-alphabet__link">0-9</a>
+                                <div class="b-alphabet__slider">
+                                    <ul class="slides">
+                                        <li><a href="#" class="b-alphabet__link">a</a></li>
+                                        <li><a href="#" class="b-alphabet__link">b</a></li>
+                                        <li><a href="#" class="b-alphabet__link">c</a></li>
+                                        <li><a href="#" class="b-alphabet__link">d</a></li>
+                                        <li><a href="#" class="b-alphabet__link">e</a></li>
+                                        <li><a href="#" class="b-alphabet__link">f</a></li>
+                                        <li><a href="#" class="b-alphabet__link">g</a></li>
+                                        <li><a href="#" class="b-alphabet__link">h</a></li>
+                                        <li><a href="#" class="b-alphabet__link">i</a></li>
+                                        <li><a href="#" class="b-alphabet__link">j</a></li>
+                                        <li><a href="#" class="b-alphabet__link">k</a></li>
+                                        <li><a href="#" class="b-alphabet__link">l</a></li>
+                                        <li><a href="#" class="b-alphabet__link">m</a></li>
+                                        <li><a href="#" class="b-alphabet__link">n</a></li>
+                                        <li><a href="#" class="b-alphabet__link">o</a></li>
+                                        <li><a href="#" class="b-alphabet__link">p</a></li>
+                                        <li><a href="#" class="b-alphabet__link">q</a></li>
+                                        <li><a href="#" class="b-alphabet__link">r</a></li>
+                                        <li><a href="#" class="b-alphabet__link">s</a></li>
+                                        <li><a href="#" class="b-alphabet__link">t</a></li>
+                                        <li><a href="#" class="b-alphabet__link">u</a></li>
+                                        <li><a href="#" class="b-alphabet__link">v</a></li>
+                                        <li><a href="#" class="b-alphabet__link">w</a></li>
+                                        <li><a href="#" class="b-alphabet__link">x</a></li>
+                                        <li><a href="#" class="b-alphabet__link">y</a></li>
+                                        <li><a href="#" class="b-alphabet__link">z</a></li>
+                                        <li><a href="#" class="b-alphabet__link">0-9</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="container__inner">
@@ -840,12 +844,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="b-noplanem b-noplanem_sm">
+                        <div class="b-noplanem b-noplanem_sm hide-phone">
                             <p>Если вы не нашли нужный<br />вам самолет, пожалуйста <a class="b-noplanem__link" href="#">сообщите нам</a></p>
                         </div>
                     </div>
                 </div>
-                <aside class="b-rsidebar">
+                <aside class="b-rsidebar hide-phone">
                     <div class="widget">
                         <h2 class="widget__title">Производитель</h2>
                         <ul class="b-manMenu">

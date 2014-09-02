@@ -16,7 +16,7 @@
                             -->
                             <div class="b-text">
                                 <!-- данный бек прописан в разметке так как есть вероятность что на основе этой страницы будут другие и изображение может быть заменено. -->
-                                <div class="row-fluid" style="background:url(images/planebg2.png) no-repeat right top">
+                                <div class="row-fluid b-page__about">
                                     <div class="span7">
                                         <h2>О нашей организации</h2>
                                         <div class="dec-title">
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <aside class="b-rsidebar">
+                <aside class="b-rsidebar hide-phone">
                     <div class="widget">
                         <h2 class="widget__title widget__title_arrow">Новые Добавления</h2>
                         <div class="widget__cItem">

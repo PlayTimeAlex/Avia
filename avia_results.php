@@ -1,26 +1,26 @@
 <?php require_once 'blocks/header.php'; ?>   
         <section class="main-content">
             <div class="container">
-                <div class="main-content__content">
+                <div class="main-content__content hide-phone">
                     <div class="b-slogan">
                         <div class="container__inner">
                             <p><strong>Купить самолет</strong> с доставкой в Россию</p>
                         </div>
                     </div>
-                    <div class="b-contentMenu">
+                    <div class="b-contentMenu hide-phone">
                         <div class="container__inner">
                             <ul class="b-contentMenu__list">
                                 <li class="b-contentMenu__listItem"><a href="#" class="b-contentMenu__listItemLink">Расширенный поиск</a></li>
                                 <li class="b-contentMenu__listItem"><a href="#" class="b-contentMenu__listItemLink b-contentMenu__listItemLink_icon1">По алфавиту</a></li>
                                 <li class="b-contentMenu__listItem"><a href="#" class="b-contentMenu__listItemLink b-contentMenu__listItemLink_icon2">Получить лицензию пилота</a></li>
                                 <li class="b-contentMenu__listItem"><a href="#" class="b-contentMenu__listItemLink b-contentMenu__listItemLink_icon3">Инспекция и сертификация</a></li>
-                                <li class="b-contentMenu__listItem"><a href="#" class="b-contentMenu__listItemLink b-contentMenu__listItemLink_icon4 b-contentMenu__listItemLink_spec"><strong>Специалист на связи</strong></a></li>
+                                <li class="b-contentMenu__listItem hide-phone"><a href="#" class="b-contentMenu__listItemLink b-contentMenu__listItemLink_icon4 b-contentMenu__listItemLink_spec"><strong>Специалист на связи</strong></a></li>
                             </ul>
                         </div>    
                     </div>
                     <div class="b-planeMenu">
-                        <div class="container__inner">
-                            <ul class="b-planeMenu__list">
+                        <div class="container__inner b-planeMenu__slider">
+                            <ul class="b-planeMenu__list slides">
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink">Commercial</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_vintage">Vintage</a></li>
                                 <li class="b-planeMenu__listItem"><a href="#" class="b-planeMenu__listItemLink b-planeMenu__listItemLink_warbirds">Warbirds</a></li>
@@ -45,20 +45,13 @@
                         </ul>
                     </div>
                     <div class="b-page">
-                        <div class="container__inner">
+                        <div class="container__inner container__inner_filter">
                             <h2 class="b-page__title">Расширенный поиск авиасуден на продажу:</h2>
                             <div class="b-filter clearfix">
                                 <div class="b-filter__left">
                                     <div class="row-fluid">
                                         <div class="span5">
                                             <h3 class="b-filter__title">Категория</h3>
-                                        </div>
-                                        <div class="span7">
-                                            <h3 class="b-filter__title">Изготовитель: </h3>
-                                        </div>
-                                    </div>
-                                    <div class="row-fluid">
-                                        <div class="span5">
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
                                                 Commercial
@@ -109,6 +102,7 @@
                                             </label>
                                         </div>
                                         <div class="span7">
+                                            <h3 class="b-filter__title">Изготовитель: </h3>
                                             <select multiple="" class="b-filter__multiple" size="12">
                                                 <option value="">Piper (23)</option>
                                                 <option value="">Bombardler (12)</option>
@@ -140,16 +134,6 @@
                                     <div class="row-fluid">
                                         <div class="span4">
                                             <h3 class="b-filter__title">Цена</h3>
-                                        </div>
-                                        <div class="span4">
-                                            <h3 class="b-filter__title">Дальность полета:</h3>
-                                        </div>
-                                        <div class="span4">
-                                            <h3 class="b-filter__title">Длина полосы:</h3>
-                                        </div>
-                                    </div>
-                                    <div class="row-fluid">
-                                        <div class="span4">
                                             <select class="b-filter__select">
                                                 <option value="">10 000$</option>
                                                 <option value="">20 000$</option>
@@ -166,6 +150,7 @@
                                             </select>
                                         </div>
                                         <div class="span4">
+                                            <h3 class="b-filter__title">Дальность полета:</h3>
                                             <select class="b-filter__select">
                                                 <option value="">3 000 км</option>
                                                 <option value="">4 000 км</option>
@@ -182,6 +167,7 @@
                                             </select>
                                         </div>
                                         <div class="span4">
+                                            <h3 class="b-filter__title">Длина полосы:</h3>
                                             <select class="b-filter__select">
                                                 <option value="">1 000 м</option>
                                                 <option value="">2 000 м</option>
@@ -198,19 +184,10 @@
                                             </select>
                                         </div>
                                     </div>
+
                                     <div class="row-fluid">
                                         <div class="span4">
                                             <h3 class="b-filter__title">Двигатель:</h3>
-                                        </div>
-                                        <div class="span4">
-                                            <h3 class="b-filter__title">Тип полосы:</h3>
-                                        </div>
-                                        <div class="span4">
-                                            <h3 class="b-filter__title">Кол-во мест:</h3>
-                                        </div>
-                                    </div>
-                                    <div class="row-fluid">
-                                        <div class="span4">
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
                                                 Реактивный
@@ -229,6 +206,7 @@
                                             </label>
                                         </div>
                                         <div class="span4">
+                                            <h3 class="b-filter__title">Тип полосы:</h3>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
                                                 Бетон
@@ -248,6 +226,7 @@
                                             </label>
                                         </div>
                                         <div class="span4">
+                                            <h3 class="b-filter__title">Кол-во мест:</h3>
                                             <label class="b-filter__label">
                                                 <input type="checkbox" class="d_check" />
                                                 Одноместный
@@ -461,7 +440,7 @@
                                     </div>
                                 </div>
                             </div>        
-                            <div class="b-noplanem">
+                            <div class="b-noplanem hide-phone">
                                 <p>Если вы не нашли нужный<br />вам самолет, пожалуйста <a class="b-noplanem__link" href="#">сообщите нам</a></p>
                             </div>
                         </div>    

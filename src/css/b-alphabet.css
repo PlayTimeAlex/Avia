@@ -15,3 +15,7 @@
     display: inline-block;
     padding: 0.7em 0.62em;
 }
+.b-alphabet__slider .slides > li{
+    list-style:none;
+    display: inline-block;
+}
